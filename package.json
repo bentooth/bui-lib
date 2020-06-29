@@ -1,0 +1,49 @@
+{
+  "name": "@modularnetwork/blossom-ui",
+  "version": "0.2.1",
+  "description": "A standardised collection of React Components for use in all Blossom/Modular user interfaces.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "storybook": "BABEL_ENV=production start-storybook -p 9001 -c .storybook",
+    "build": "BABEL_ENV=production babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Modular-Network/blossom-ui-lib.git"
+  },
+  "keywords": [
+    "ui",
+    "library",
+    "components",
+    "react"
+  ],
+  "author": "Modular Inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Modular-Network/blossom-ui-lib/issues"
+  },
+  "homepage": "https://github.com/Modular-Network/blossom-ui-lib#readme",
+  "dependencies": {
+    "@storybook/addon-options": "^3.4.8",
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-modal": "^3.5.1",
+    "react-redux": "^5.0.7",
+    "react-select": "^2.0.0",
+    "react-transition-group": "^2.4.0",
+    "styled-components": "^3.4.2",
+    "velocity-react": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-styled-components": "^1.5.1",
+    "babel-preset-react-app": "^3.1.2"
+  },
+  "files": [
+    "lib",
+    "assets"
+  ]
+}

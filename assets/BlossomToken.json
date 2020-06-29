@@ -1,0 +1,8 @@
+{
+  "dApp": "Blossom",
+  "contract": {
+    "name": "BlossomToken",
+    "protocol": "ERC20",
+    "address": "0x46B3678092059a046DCc33a7507383590546B0f1"
+  }
+}

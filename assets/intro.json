@@ -1,0 +1,33 @@
+{
+  "delay": 12,
+  "paragraphs": [{
+    "type": "display6",
+    "children": "Provisioning a secure decentralized wallet smart contract to your account:",
+    "animation": ["fadeIn", ".5s", "ease", "4s", "both"],
+    "gutterbottom": 3
+  }, {
+    "type": "display7",
+    "children": "✓ Assigning your locally stored primary authentication key",
+    "animation": ["fadeIn", ".5s", "ease", "6s", "both"],
+    "gutterbottom": 1
+  }, {
+    "type": "display7",
+    "children": "✓ Assigning secondary authentication key",
+    "animation": ["fadeIn", ".5s", "ease", "8s", "both"],
+    "gutterbottom": 1
+  }, {
+    "type": "display7",
+    "children": "✓ Assigning two-factor authentication key",
+    "animation": ["fadeIn", ".5s", "ease", "10s", "both"],
+    "gutterbottom": 3
+  }, {
+    "type": "display7",
+    "children": "Configuring your Blossom account...",
+    "animation": ["fadeIn", ".5s", "ease", "12s", "both"],
+    "gutterbottom": 20
+  }, {
+    "type": "display7",
+    "children": "For your security, every transaction is signed and secured by a combination of more than one key, but unlike most existing custody solutions who control your assets, you have complete control over your account.",
+    "animation": ["fadeIn", ".5s", "ease", ".5s", "both"]
+  }]
+}
